@@ -1,4 +1,4 @@
 language: php
 php:
   - 5.5
-script: phpunit tests
+script: phpunit --configuration travis-ci.xml tests
