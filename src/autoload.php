@@ -3,7 +3,7 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
-                'Charactor' => '/Charactor.php',
+                'charactor' => '/Charactor.php',
             );
         }
         $cn = strtolower($class);
