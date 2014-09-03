@@ -8,7 +8,10 @@ class CharactorTest extends PHPUnit_Framework_TestCase
   
   public function testHasAttributes()
   {
-    $this->assertClassHasAttribute('hp','Charactor');
+    $attributes=['hp','bp','atk','def']
+    foreach($attributes as $attribute){
+      $this->assertClassHasAttribute($attribute,'Charactor');
+    }
   }
   
 }
