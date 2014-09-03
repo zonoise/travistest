@@ -5,4 +5,10 @@ class CharactorTest extends PHPUnit_Framework_TestCase
   {
     $this->assertInstanceOf('Charactor', new \Charactor());
   }
+  
+  public function testHasAttributes()
+  {
+    $this->assertInstanceOf('hp','Charactor');
+  }
+  
 }
