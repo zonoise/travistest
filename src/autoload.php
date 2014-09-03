@@ -5,6 +5,7 @@ spl_autoload_register(
         if ($classes === null) {
             $classes = array(
                 'charactor' => '/Charactor.php',
+                'user' => '/User.php',
             );
         }
         $cn = strtolower($class);
